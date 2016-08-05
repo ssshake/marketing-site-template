@@ -139,6 +139,12 @@ a.hero-button {
     flex: 0 0 25%;
 }
 
+@media screen and (max-width: 767px) {
+    .col-25 {
+        flex: 1 1 100%;
+    }
+}
+
 .marketing-section{
     padding:6rem 1rem;
 }
