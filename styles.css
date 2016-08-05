@@ -246,3 +246,7 @@ a.hero-button {
     letter-spacing: .05rem;
     font-size: .6rem;
 }
+
+.btn.submit-btn {
+    border: 0;
+}
