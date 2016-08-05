@@ -1,0 +1,109 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: 212121;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.hero {
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 136, 209, .5), rgba(2, 136, 209, .5)), url('hero.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-lead {
+    font-weight: 300;
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+.hero-sub-text {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .05rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.hero-content {
+
+}
+
+
+.hero-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    letter-spacing; .05rem;
+    font-weight: 300;
+}
+
+a.hero-button {
+    color: white;
+}
+
+.content {
+
+}
+.map {
+    border:0;
+    width:100%;
+    height:450px;
+}
+
+/** flex **/
+
+.flex {
+   display: flex;
+}
+
+.flex-center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column{
+   flex-direction: column;
+}
+
+.flex-hor-center {
+    justify-content: center;
+}
+
+.flex-vert-center {
+    align-items: center;
+}
+
+.flex-pull-left {
+    margin-right: auto;
+}
+
+.flex-pull-right {
+    margin-left: auto;
+}
+
+/*helpers*/
+.text-center {
+   text-align: center;
+}
+
+.rounded {
+    border-radius: 1000px;
+}
