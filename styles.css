@@ -162,7 +162,6 @@ a.hero-button {
 }
 
 /*product*/
-
 .product{
     background: rgb(245, 245, 245);
 }
@@ -182,9 +181,38 @@ a.hero-button {
 }
 
 .product-title{
-    
+    font-size:1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    margin: 0 0 .5rem;
 }
 
 .product-description{
+    font-size: 1rem;
+    color:rgb(150, 150, 150);
+    font-style: italic;
+    font-weight: 300;
+}
 
+/*map*/
+
+.map {
+    border:0;
+    width:100%;
+    height:450px;
+    position: relative;
+}
+
+.map-overlay{
+    position: absolute;
+    background: rgba(0,0,0,0);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.map-container{
+    position: relative;
 }
