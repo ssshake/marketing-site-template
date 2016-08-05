@@ -20,6 +20,7 @@ a:hover{
 
 .hero {
     height: 100%;
+    /*background-image: linear-gradient(to bottom, rgba(0, 136, 209, .5), rgba(2, 136, 209, .5)), url('tux.jpg');*/
     background-image: linear-gradient(to bottom, rgba(0, 136, 209, .5), rgba(2, 136, 209, .5)), url('hero.jpg');
     background-position: center center;
     background-size: cover;
@@ -106,4 +107,84 @@ a.hero-button {
 
 .rounded {
     border-radius: 1000px;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    background-color: #0288D1;
+    text-transform: uppercase;
+    letter-spacing; .05rem;
+    color:white;
+}
+
+.large-top {
+    margin-top: 1rem;
+}
+
+/*about*/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.col-100 {
+    flex: 1 1 100%;
+}
+
+.col-25 {
+    flex: 0 0 25%;
+}
+
+.marketing-section{
+    padding:6rem 1rem;
+}
+
+.body-copy {
+    font-size: 1.4rem;
+    letter-spacing: .02rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.section-lead {
+    font-size: 3rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    color: #0288D1;
+}
+
+/*product*/
+
+.product{
+    background: rgb(245, 245, 245);
+}
+
+.product-card {
+    background: #fff;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .05), 0 1px 18px 0 rgba(0, 0, 0, .06), 0 3px 5px -2px rgba(0, 0, 0, .1);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.product-card img{
+    position: relative;
+    left: -1rem;
+    top: -1rem;
+    width: calc(100% + 2rem);
+}
+
+.product-title{
+    
+}
+
+.product-description{
+
 }
